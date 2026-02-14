@@ -13,7 +13,7 @@ public class MockDatabase {
         // --- KULLANICILAR --
         Admin admin = new Admin("admin", "Sistem Yöneticisi");
         users.add(admin);
-        users.add(new Student("burak", "Burak"));
+        users.add(new Student("burak", "Burak Şeker"));
 
         // --- KURS 1: JAVA ---
         Instructor javaHoca = new Instructor("hoca1", "Dr. Burak Java Şeker");
