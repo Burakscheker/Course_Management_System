@@ -4,6 +4,14 @@ A robust, console-based **Learning Management System** built with **Java**. This
 
 The system features a layered architecture separating **Models**, **Services**, and **Data**, ensuring clean code and scalability.
 
+### Project Structure
+
+               src/
+                ├── model/          # Entities (User, Student, Course, Lesson, Enrollment)
+                ├── service/        # Business Logic (CourseManager, CertificateService)
+                ├── data/           # Mock Database (Static Lists)
+                └── main/           # Entry Point (Console UI & Menu Logic)
+
 ## 🚀 Key Features
 
 * **👥 Role-Based Access Control:**
@@ -20,10 +28,17 @@ The system features a layered architecture separating **Models**, **Services**, 
 * **Architecture:** Layered (Model - Service - Data)
 * **Concepts:** OOP (Inheritance, Polymorphism, Encapsulation), File I/O, Java 2D Graphics.
 
-### Project Structure
-```text
-src/
- ├── model/          # Entities (User, Student, Course, Lesson, Enrollment)
- ├── service/        # Business Logic (CourseManager, CertificateService)
- ├── data/           # Mock Database (Static Lists)
- └── main/           # Entry Point (Console UI & Menu Logic)
+## 📸 Screenshots / Output Examples
+
+Here is the application in action:
+
+### 1. The Console Interface (Menu)
+![Console Interface](screenshots/screenshotCMS.png)
+
+### 2. Generated Certificate Sample
+The system automatically generates this PNG file upon course completion:
+![Certificate Output](screenshots/Sertifika_Burak_Şeker_Sıfırdan_Zirveye_Java_Başlangıç.png)
+
+
+
+
